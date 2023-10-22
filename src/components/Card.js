@@ -1,5 +1,4 @@
 import React from "react";
-import Image12 from "../images/Image12.png";
 import Star from "../images/Star1.png";
 
 export default function Card(props) {
@@ -12,7 +11,7 @@ export default function Card(props) {
   return (
       <div className="card">
         {badgeText && <div className="card-badge">{badgeText}</div>}
-        <img src={require(`../images/${props.item.coverImg}`)} className="card-img" alt="image of a person" />
+        <img src={require(`../images/${props.item.coverImg}`)} className="card-img" alt="image of a product" />
         <div className="star-section">
           <img src={Star} className="star-icon" alt="Star" />
 
